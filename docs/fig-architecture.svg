@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="330" viewBox="0 0 1100 330"><rect width="100%" height="100%" fill="#fbfaf6"/>
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12" fill="none" stroke="#141414" stroke-width="2"/></marker></defs>
+<rect x="20" y="80" width="220" height="170" fill="white" stroke="#141414" stroke-width="2.5"/>
+<text x="130" y="120" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" fill="#141414" font-weight="bold" text-anchor="middle">AegisDB raft</text>
+<text x="130" y="160" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">real Go code</text>
+<text x="130" y="186" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">3 nodes, one process</text>
+<text x="130" y="212" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">faults + clock control</text>
+<rect x="290" y="80" width="220" height="170" fill="white" stroke="#141414" stroke-width="2.5"/>
+<text x="400" y="120" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" fill="#141414" font-weight="bold" text-anchor="middle">trace</text>
+<text x="400" y="160" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">one event per</text>
+<text x="400" y="186" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">state change</text>
+<text x="400" y="212" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">global causal order</text>
+<rect x="560" y="80" width="220" height="170" fill="white" stroke="#141414" stroke-width="2.5"/>
+<text x="670" y="120" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" fill="#141414" font-weight="bold" text-anchor="middle">TLA+ spec</text>
+<text x="670" y="160" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">TraceRaft.tla</text>
+<text x="670" y="186" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">13 actions</text>
+<text x="670" y="212" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">27 safety rules</text>
+<rect x="830" y="80" width="220" height="170" fill="white" stroke="#141414" stroke-width="2.5"/>
+<text x="940" y="120" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" fill="#141414" font-weight="bold" text-anchor="middle">TLC</text>
+<text x="940" y="160" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">replays every step</text>
+<text x="940" y="186" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">first broken rule</text>
+<text x="940" y="212" font-family="Menlo, SF Mono, Consolas, monospace" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="middle">-&gt; event + Go line</text>
+<line x1="246" y1="165" x2="282" y2="165" stroke="#141414" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="516" y1="165" x2="552" y2="165" stroke="#141414" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="786" y1="165" x2="822" y2="165" stroke="#141414" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="20" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" fill="#141414" font-weight="bold" text-anchor="start">SpecShadow: check what the code actually did, step by step</text>
+<text x="20" y="296" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="start">Tests check outcomes. Trace validation checks every intermediate step against the protocol.</text>
+</svg>

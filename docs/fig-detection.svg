@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="626" viewBox="0 0 980 626"><rect width="100%" height="100%" fill="#fbfaf6"/>
+<text x="30" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" fill="#141414" font-weight="bold" text-anchor="start">Seven planted raft bugs: who notices?</text>
+<text x="30" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#5c5c5c" font-weight="normal" text-anchor="start">AegisDB's own 9 raft tests vs. SpecShadow on 20 random chaos runs per bug</text>
+<text x="30" y="118" font-family="Menlo, SF Mono, Consolas, monospace" font-size="14" fill="#5c5c5c" font-weight="normal" text-anchor="start">planted bug</text>
+<text x="360" y="118" font-family="Menlo, SF Mono, Consolas, monospace" font-size="14" fill="#5c5c5c" font-weight="normal" text-anchor="start">AegisDB tests fail</text>
+<text x="520" y="118" font-family="Menlo, SF Mono, Consolas, monospace" font-size="14" fill="#5c5c5c" font-weight="normal" text-anchor="start">bug fired</text>
+<text x="640" y="118" font-family="Menlo, SF Mono, Consolas, monospace" font-size="14" fill="#5c5c5c" font-weight="normal" text-anchor="start">caught by SpecShadow</text>
+<line x1="30" y1="130" x2="950" y2="130" stroke="#141414" stroke-width="1.5"/>
+<text x="30" y="156" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">double-vote</text>
+<text x="30" y="176" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">votes twice in one term</text>
+<text x="360" y="164" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">1/7 runs</text>
+<text x="520" y="164" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="normal" text-anchor="start">6/20</text>
+<rect x="640" y="146" width="220" height="22" fill="white" stroke="#141414" stroke-width="1"/>
+<rect x="640" y="146" width="66.0" height="22" fill="#141414" stroke="#141414" stroke-width="1"/>
+<text x="872" y="163" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">6/20</text>
+<text x="640" y="184" font-family="Menlo, SF Mono, Consolas, monospace" font-size="12" fill="#5c5c5c" font-weight="normal" text-anchor="start">DoubleVote</text>
+<line x1="30" y1="188" x2="950" y2="188" stroke="#d9d6cc" stroke-width="1"/>
+<text x="30" y="214" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">no-up-to-date</text>
+<text x="30" y="234" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">votes for a stale log</text>
+<text x="360" y="222" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#b42318" font-weight="bold" text-anchor="start">0/7 runs</text>
+<text x="520" y="222" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="normal" text-anchor="start">16/20</text>
+<rect x="640" y="204" width="220" height="22" fill="white" stroke="#141414" stroke-width="1"/>
+<rect x="640" y="204" width="143.0" height="22" fill="#141414" stroke="#141414" stroke-width="1"/>
+<text x="872" y="221" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">13/20</text>
+<text x="640" y="242" font-family="Menlo, SF Mono, Consolas, monospace" font-size="12" fill="#5c5c5c" font-weight="normal" text-anchor="start">VoteForStaleLog</text>
+<line x1="30" y1="246" x2="950" y2="246" stroke="#d9d6cc" stroke-width="1"/>
+<text x="30" y="272" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">commit-old-term</text>
+<text x="30" y="292" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">commits old-term entries (fig. 8)</text>
+<text x="360" y="280" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#b42318" font-weight="bold" text-anchor="start">0/7 runs</text>
+<text x="520" y="280" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="normal" text-anchor="start">16/20</text>
+<rect x="640" y="262" width="220" height="22" fill="white" stroke="#141414" stroke-width="1"/>
+<rect x="640" y="262" width="176.0" height="22" fill="#141414" stroke="#141414" stroke-width="1"/>
+<text x="872" y="279" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">16/20</text>
+<text x="640" y="300" font-family="Menlo, SF Mono, Consolas, monospace" font-size="12" fill="#5c5c5c" font-weight="normal" text-anchor="start">CommittedOldTermByCounting</text>
+<line x1="30" y1="304" x2="950" y2="304" stroke="#d9d6cc" stroke-width="1"/>
+<text x="30" y="330" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">commit-overrun</text>
+<text x="30" y="350" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">follower commits past the match</text>
+<text x="360" y="338" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#b42318" font-weight="bold" text-anchor="start">0/7 runs</text>
+<text x="520" y="338" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="normal" text-anchor="start">3/20</text>
+<rect x="640" y="320" width="220" height="22" fill="white" stroke="#141414" stroke-width="1"/>
+<rect x="640" y="320" width="11.0" height="22" fill="#141414" stroke="#141414" stroke-width="1"/>
+<text x="872" y="337" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">1/20</text>
+<text x="640" y="358" font-family="Menlo, SF Mono, Consolas, monospace" font-size="12" fill="#5c5c5c" font-weight="normal" text-anchor="start">CommittedEntryDiverged</text>
+<line x1="30" y1="362" x2="950" y2="362" stroke="#d9d6cc" stroke-width="1"/>
+<text x="30" y="388" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">long-lease</text>
+<text x="30" y="408" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">lease 2x election timeout</text>
+<text x="360" y="396" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#b42318" font-weight="bold" text-anchor="start">0/7 runs</text>
+<text x="520" y="396" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="normal" text-anchor="start">19/20</text>
+<rect x="640" y="378" width="220" height="22" fill="white" stroke="#141414" stroke-width="1"/>
+<rect x="640" y="378" width="0.0" height="22" fill="#141414" stroke="#141414" stroke-width="1"/>
+<text x="872" y="395" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">0/20</text>
+<line x1="30" y1="420" x2="950" y2="420" stroke="#d9d6cc" stroke-width="1"/>
+<text x="30" y="446" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">stale-term</text>
+<text x="30" y="466" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">accepts an old leader's append</text>
+<text x="360" y="454" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#b42318" font-weight="bold" text-anchor="start">0/7 runs</text>
+<text x="520" y="454" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="normal" text-anchor="start">0/20</text>
+<rect x="640" y="436" width="220" height="22" fill="white" stroke="#141414" stroke-width="1"/>
+<rect x="640" y="436" width="0.0" height="22" fill="#141414" stroke="#141414" stroke-width="1"/>
+<text x="872" y="453" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">0/20</text>
+<line x1="30" y1="478" x2="950" y2="478" stroke="#d9d6cc" stroke-width="1"/>
+<text x="30" y="504" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">vote-not-synced</text>
+<text x="30" y="524" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">votes before the vote is on disk</text>
+<text x="360" y="512" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#b42318" font-weight="bold" text-anchor="start">0/7 runs</text>
+<text x="520" y="512" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="normal" text-anchor="start">1/20</text>
+<rect x="640" y="494" width="220" height="22" fill="white" stroke="#141414" stroke-width="1"/>
+<rect x="640" y="494" width="0.0" height="22" fill="#141414" stroke="#141414" stroke-width="1"/>
+<text x="872" y="511" font-family="Menlo, SF Mono, Consolas, monospace" font-size="16" fill="#141414" font-weight="bold" text-anchor="start">0/20</text>
+<line x1="30" y1="536" x2="950" y2="536" stroke="#d9d6cc" stroke-width="1"/>
+<text x="30" y="600" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5c5c5c" font-weight="normal" text-anchor="start">"bug fired" = runs where the buggy line actually changed what a node did.</text>
+</svg>

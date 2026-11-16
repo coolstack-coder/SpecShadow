@@ -1,0 +1,51 @@
+{
+ "started": "2026-11-17T01:41:42+05:30",
+ "finished": "2026-11-17T01:43:07+05:30",
+ "machine": "Apple M2",
+ "runs": null,
+ "aegis_suite": [
+  {
+   "bug": "",
+   "passed": true,
+   "sec": 11.329572292
+  },
+  {
+   "bug": "double-vote",
+   "passed": false,
+   "failed_tests": [
+    "TestPreVoteStopsDisruption"
+   ],
+   "sec": 9.015831583
+  },
+  {
+   "bug": "no-up-to-date",
+   "passed": true,
+   "sec": 11.0421895
+  },
+  {
+   "bug": "commit-old-term",
+   "passed": true,
+   "sec": 10.607392542
+  },
+  {
+   "bug": "commit-overrun",
+   "passed": true,
+   "sec": 10.611730125
+  },
+  {
+   "bug": "long-lease",
+   "passed": true,
+   "sec": 10.935990917
+  },
+  {
+   "bug": "stale-term",
+   "passed": true,
+   "sec": 10.821335917
+  },
+  {
+   "bug": "vote-not-synced",
+   "passed": true,
+   "sec": 10.34850425
+  }
+ ]
+}

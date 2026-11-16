@@ -1,0 +1,44 @@
+{
+ "": {
+  "runs": 7,
+  "failed": 0,
+  "tests": []
+ },
+ "double-vote": {
+  "runs": 7,
+  "failed": 1,
+  "tests": [
+   "TestPreVoteStopsDisruption"
+  ]
+ },
+ "no-up-to-date": {
+  "runs": 7,
+  "failed": 0,
+  "tests": []
+ },
+ "commit-old-term": {
+  "runs": 7,
+  "failed": 0,
+  "tests": []
+ },
+ "commit-overrun": {
+  "runs": 7,
+  "failed": 0,
+  "tests": []
+ },
+ "long-lease": {
+  "runs": 7,
+  "failed": 0,
+  "tests": []
+ },
+ "stale-term": {
+  "runs": 7,
+  "failed": 0,
+  "tests": []
+ },
+ "vote-not-synced": {
+  "runs": 7,
+  "failed": 0,
+  "tests": []
+ }
+}

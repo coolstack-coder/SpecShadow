@@ -1,0 +1,1 @@
+AegisDB's 9 raft tests (subject/raft/aegis_suite_test.go) run with SPECSHADOW_BUG set: 1 run in experiments/results.json (first evaluation), 1 in results-suite.json, plus 5 repeats. 'failed' = runs with at least one failing test.
